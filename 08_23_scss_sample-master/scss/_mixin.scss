@@ -1,0 +1,28 @@
+@use './variable' as *;
+
+@mixin bgcolor($bgcolor:#fff){
+    background: $bgcolor;
+}
+
+@mixin color($color: #25282c){
+    color: $color;
+}
+
+@mixin fontsize($fontsize: 12px){
+    font-size: $fontsize;
+}
+
+@mixin width{
+    width: 1173px;
+}
+
+@mixin margin($margin: 0 10px){
+    margin: $margin;
+    margin-bottom: 30px;
+    
+}
+
+@mixin size($size: 190px){
+    width: $size;
+}
+
